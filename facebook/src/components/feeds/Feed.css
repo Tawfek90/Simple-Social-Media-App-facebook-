@@ -1,0 +1,10 @@
+.feed {
+  -webkit-box-flex: 5.5;
+      -ms-flex: 5.5;
+          flex: 5.5;
+}
+
+.feed .feedWrapper {
+  padding: 20px;
+}
+/*# sourceMappingURL=Feed.css.map */

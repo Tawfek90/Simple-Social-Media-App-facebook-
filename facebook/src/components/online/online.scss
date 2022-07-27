@@ -1,0 +1,26 @@
+.friends-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  position: relative;
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .online {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: limegreen;
+    position: absolute;
+    border: 2px solid #fff;
+    left: 22px;
+    top: -5px;
+  }
+  .item-name {
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
+}

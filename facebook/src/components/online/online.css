@@ -1,0 +1,35 @@
+.friends-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.friends-list-item img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.friends-list-item .online {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: limegreen;
+  position: absolute;
+  border: 2px solid #fff;
+  left: 22px;
+  top: -5px;
+}
+
+.friends-list-item .item-name {
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=online.css.map */

@@ -1,0 +1,74 @@
+.share {
+  height: 185px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px 6px rgba(161, 154, 154, 0.67);
+  -webkit-box-shadow: 3px 3px 20px 6px rgba(161, 154, 154, 0.67);
+  -moz-box-shadow: 3px 3px 20px 6px rgba(161, 154, 154, 0.67);
+
+  .shareWrapper {
+    padding: 10px;
+    .top {
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 22px;
+      }
+      input {
+        border: none;
+        outline: none;
+        width: 90%;
+        max-width: 90%;
+        height: 28px;
+        font-size: 16px;
+      }
+    }
+    hr {
+      margin-top: 18px;
+    }
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 26px;
+      button {
+        border: none;
+        width: 81px;
+        height: 26px;
+        border-radius: 6px;
+        background: green;
+        color: #fff;
+        cursor: pointer;
+      }
+      .bottom_obtion {
+        display: flex;
+        align-items: center;
+        margin-right: 18px;
+
+        i {
+          margin-right: 11px;
+        }
+        .imageIcon {
+          color: tomato;
+        }
+        .tagIcon {
+          color: blue;
+        }
+        .locationIcon {
+          color: green;
+        }
+
+        .emojeIcon {
+          color: goldenrod;
+        }
+        span {
+        }
+      }
+    }
+  }
+}
