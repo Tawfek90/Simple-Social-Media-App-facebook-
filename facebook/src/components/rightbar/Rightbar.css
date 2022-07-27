@@ -1,0 +1,133 @@
+.Rightbar {
+  -webkit-box-flex: 3.5;
+      -ms-flex: 3.5;
+          flex: 3.5;
+  height: calc(100vh - 46px);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 46px;
+}
+
+.Rightbar ::-webkit-scrollbar {
+  width: 2px;
+}
+
+.Rightbar ::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.Rightbar ::-webkit-scrollbar-thumb {
+  background-color: #b3aeae;
+}
+
+.Rightbar .rightbar-wrapper {
+  padding: 20px 20px 0 0;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.Rightbar .rightbar-wrapper .information {
+  margin-top: -19px;
+}
+
+.Rightbar .rightbar-wrapper .information h4 {
+  text-transform: capitalize;
+}
+
+.Rightbar .rightbar-wrapper .information .userInformationList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Rightbar .rightbar-wrapper .information .userInformationList .userInformationListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.Rightbar .rightbar-wrapper .information .userInformationList .userInformationListItem .title {
+  font-weight: bold;
+}
+
+.Rightbar .rightbar-wrapper .information .userInformationList .userInformationListItem span {
+  margin-left: 12px;
+}
+
+.Rightbar .rightbar-wrapper .userFriends {
+  text-transform: capitalize;
+  margin-top: 60px;
+}
+
+.Rightbar .rightbar-wrapper .userFriends .followersList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Rightbar .rightbar-wrapper .userFriends .followersList .followersListItem img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.Rightbar .rightbar-wrapper .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Rightbar .rightbar-wrapper .top img {
+  width: 67px;
+  height: 52px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Rightbar .rightbar-wrapper .top span {
+  font-size: 15px;
+}
+
+.Rightbar .rightbar-wrapper .center img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.Rightbar .rightbar-wrapper .bottom .friends {
+  padding: 10px;
+}
+
+.Rightbar .rightbar-wrapper .bottom .friends p {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.Rightbar .rightbar-wrapper .bottom .friends .friends-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/*# sourceMappingURL=Rightbar.css.map */

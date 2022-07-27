@@ -1,0 +1,104 @@
+.post {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 20px 6px rgba(161, 154, 154, 0.67);
+  -webkit-box-shadow: 3px 3px 20px 6px rgba(161, 154, 154, 0.67);
+  -moz-box-shadow: 3px 3px 20px 6px rgba(161, 154, 154, 0.67);
+  border-radius: 10px;
+}
+
+.post .post_Wrapper {
+  padding: 10px;
+}
+
+.post .post_Wrapper .post-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .post_Wrapper .post-top .post-top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .post_Wrapper .post-top .post-top-left img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post .post_Wrapper .post-top .post-top-left p {
+  margin: 0 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.post .post_Wrapper .post-top .post-top-left span {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.post .post_Wrapper .post-center p {
+  text-transform: lowercase;
+}
+
+.post .post_Wrapper .post-center img {
+  width: 100%;
+  height: 100%;
+}
+
+.post .post_Wrapper .post-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post .post_Wrapper .post-bottom .post-bottom-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .post_Wrapper .post-bottom .post-bottom-left img:nth-child(1) {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -2px;
+}
+
+.post .post_Wrapper .post-bottom .post-bottom-left img:nth-child(2) {
+  width: 25px;
+  height: 36px;
+  margin: 0 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post .post_Wrapper .post-bottom .post-bottom-left span {
+  font-size: 14px;
+}
+/*# sourceMappingURL=Post.css.map */

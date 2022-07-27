@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tobar_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #1876f4;
+  padding-top: 10px;
+  height: 36px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+
+.tobar_container .left {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tobar_container .center {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  background: #fff;
+  margin-bottom: 9px;
+  border-radius: 50px;
+}
+
+.tobar_container .center span {
+  position: relative;
+  top: 2px;
+}
+
+.tobar_container .center span i {
+  margin-top: 5px;
+  margin-left: 11px;
+  cursor: pointer;
+}
+
+.tobar_container .center input {
+  width: 70%;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+.tobar_container .right {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+}
+
+.tobar_container .right .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 147px;
+  color: #fff;
+  margin-top: 4px;
+  text-transform: capitalize;
+}
+
+.tobar_container .right .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 130px;
+  margin-top: 6px;
+}
+
+.tobar_container .right .second .p1 i,
+.tobar_container .right .second .p2 i,
+.tobar_container .right .second .p3 i {
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+}
+
+.tobar_container .right .second .p1 i .number-container,
+.tobar_container .right .second .p2 i .number-container,
+.tobar_container .right .second .p3 i .number-container {
+  display: inline;
+  width: 16px;
+  height: 16px;
+  background: red;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: -9px;
+  left: 7px;
+}
+
+.tobar_container .right .second .p1 i .number-container span,
+.tobar_container .right .second .p2 i .number-container span,
+.tobar_container .right .second .p3 i .number-container span {
+  line-height: 20px;
+  font-size: 11px;
+  position: absolute;
+  top: -2px;
+  left: 5px;
+}
+
+.tobar_container .right .third img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  top: -3px;
+}
+/*# sourceMappingURL=Tobar.css.map */
